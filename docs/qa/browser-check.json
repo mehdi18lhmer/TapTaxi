@@ -1,0 +1,23 @@
+{
+  "testedAt": "2026-11-18T21:41:05.727Z",
+  "url": "http://localhost:4173/",
+  "checks": [
+    "Driver amount keypad discloses the 2 MAD fee and 0.50 MAD driver share",
+    "Card checkout with a 10 MAD tip credits the driver once and generates a receipt",
+    "Paid checkout cannot be charged again",
+    "Mobile wallet checkout validates the number and credits the selected amount",
+    "Cancelled QR blocks passenger checkout",
+    "Withdrawal rejects overspending, confirms details and persists its code",
+    "History search handles a match and an empty result",
+    "Profile preference and notification read state survive reload",
+    "Onboarding validates demo SMS and completes documents and payout choice",
+    "Payment updates the driver screen across browser tabs",
+    "Receipt download creates a real PDF",
+    "Owner amount dialog keeps input focus and supports keyboard dismissal",
+    "All main screens fit 320x740 without horizontal overflow",
+    "All main screens fit 390x844 without horizontal overflow",
+    "All main screens fit 768x1024 without horizontal overflow",
+    "All main screens fit 1280x900 without horizontal overflow",
+    "No application console errors during tested flows"
+  ]
+}
